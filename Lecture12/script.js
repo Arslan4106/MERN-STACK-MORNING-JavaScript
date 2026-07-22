@@ -49,7 +49,8 @@ if (marks >= 90 && marks <= 100) {
 }
 
 // The Switch Statement
-let day = 0;
+let day = prompt("Enter Your Day Number");
+console.log(day, typeof day);
 switch (day) {
   case 1:
     console.log("Today is Monday");
@@ -75,3 +76,31 @@ switch (day) {
   default:
     console.log("Please Enter the Correct Number between 1 & 7");
 }
+// Type Conversion, Type Coercion, Loose Equality Operator, Strict Equality
+// Loose Equality Operator: Loose Equality Operator uses Type Coercion
+// Strict Equality Operator: Strict Equality Operator does not use Type Coercion.
+
+if (day === 1) {
+  console.log("Today is Monday");
+} else if (day === 2) {
+  console.log("Today is Tuesday");
+} else if (day === 3) {
+  // '3' == 3
+  console.log("Today is Wednesday");
+} else if (day === 4) {
+  console.log("Today is Thursday");
+} else if (day === 5) {
+  console.log("Today is Friday");
+} else if (day === 6) {
+  console.log("Today is Saturday");
+} else if (day === 7) {
+  console.log("Today is Sunday");
+} else {
+  console.log("Please Enter the Correct Number between 1 & 7");
+}
+
+console.log(18 + "18");
+console.log(40 - "20");
+console.log(20 * "2");
+let mynum = Number("100");
+console.log(mynum, typeof mynum);
