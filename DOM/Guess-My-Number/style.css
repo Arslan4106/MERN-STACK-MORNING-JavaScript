@@ -1,0 +1,77 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ header{
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+    padding: 10px 30px;
+ }
+ body{
+    background-color: rgb(36, 36, 36);
+    color: white;
+ }
+.btn{
+    height: 50px;
+    padding: 0px 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+header h2{
+    margin-top: 150px;
+    font-size: 60px;
+}
+.between{
+    font-size: 20px;
+    font-weight: bold;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+input{
+    height: 45px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    width: 155px;
+    text-align: center;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+.rightContent h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.scoreLabel{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.highestScoreLabel{
+    font-size: 25px;    
+}
+.secretNumber{
+    height: 70px;
+    width: 100px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 41.5%;
+    transform: translate(-50%, 50%);
+    color: black;
+    font-size: 40px;   
+    font-weight: bold;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+hr{
+    height: 2px;
+    background: white;
+}
