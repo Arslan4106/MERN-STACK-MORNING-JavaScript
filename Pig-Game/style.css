@@ -52,11 +52,11 @@ body{
 .player--active{
     background-color: rgb(187, 123, 4);
 }
-.player-1{
+.player--0{
     width: 50%;
     text-align: center;
 }
-.player-2{
+.player--1{
     width: 50%;
     text-align: center;
 }
